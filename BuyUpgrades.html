@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Buy Upgrades</title>
+		<meta name="description" content="Buy Upgrades for the ComradeCraft Minecraft Server!">
+		<link rel="icon" type="image/png" href="ComradeCraft.png">
+	</head>
+<style>
+body {
+
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	margin: 1px;
+	padding: 1px;
+	box-sizing: border-box;
+
+}
+table {
+	margin: 0px 400px 0px auto;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 60px;
+	font-size: 40px;
+}
+form {
+	margin: right;
+	border-collapse: collapse;
+	padding: 50px;
+	font-size: 30px;
+}
+.content-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 50px;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+</style>
+	<body>
+		<h1><a href="ComradeCraft.html">Home Page</a></h1>
+<div class="content-container">
+		<img src="ComradeCraft Store.png" width="400" height="400" alt="ComradeCraft Logo">
+		<form action="submit.php" method="POST">
+		<div>
+			<label for="Upgrade Type"><h4>Upgrade Type</h4></label>
+			<select id="Upgrade Type" name="Upgrade Type">
+				<option value="Admin Powers">Admin Powers - $100</option>
+				<option value="Kick Anyone">Kick Anyone - $2</option>
+				<option value="Ban Anyone">Ban Anyone - $20</option>
+				<option value="Delete the Server">Delete the Server - $400</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label for="Username"><h4>Username</h4><h6>(Leave Blank if not Applicable)</h6></label>
+			<input type="text" id="Username" name="Date" placeholder="Write IGN Here"><br>
+		</div>
+		<br>
+		<div>
+			<label for="Email"><h4>Email:</h4></label>
+			<input type="email" id="Email" required>
+		</div>
+		<br>
+		<div>
+			<input type="submit">
+		</div>
+		<br>
+		<div>
+		After Form Submission, expect varying handling times. 
+		</div>
+		</form>
+		<table border="3">
+			<tr>
+				<th>Avaliable Upgrades</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<td>Admin Powers</td>
+				<td>$100.00</td>
+			</tr>
+			<tr>
+				<td>Kick Anyone</td>
+				<td>$2.00</td>
+			</tr>
+			<tr>
+				<td>Ban Anyone</td>
+				<td>$20.00</td>
+			</tr>
+			<tr>
+				<td>Delete the Server</td>
+				<td>$400.00</td>
+			</tr>
+		</table>
+		</div>
+		</body>
+</html>
